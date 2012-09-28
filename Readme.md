@@ -1,7 +1,7 @@
 
 # zelig
 
-  Classic convultion filters on top of component/convolve
+  Classic convolution filters on top of component/convolve
 
 ## Available filters
 

@@ -1,7 +1,7 @@
 {
   "name": "zelig",
   "repo": "danzajdband/zelig",
-  "description": "Clasic convultion filters on top of component/convolve",
+  "description": "Clasic convolution filters on top of component/convolve",
   "version": "0.0.1",
   "keywords": ["convolve", "image processing", "canvas"],
   "dependencies": {
