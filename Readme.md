@@ -13,3 +13,4 @@
 
 ### Zelig#laplace()
 
+### Zelig#gaussianBlur()
