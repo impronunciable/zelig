@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <canvas></canvas>
+    <script src="build/build.js"></script>
+    <script>
+      var zelig = require('zelig');
+      var canvas = document.querySelector('canvas');
+      var ctx = canvas.getContext('2d');
+
+      var img = new Image;
+      img.onload = draw;
+      img.src = 'woody.jpg';
+
+      function draw() {
+        canvas.width = img.width;
+        canvas.height = img.height;
+        ctx.drawImage(img, 0, 0);
+        zelig
+          .edgeDetect()
+          .factor(2)
+          .canvas(canvas);
+      }
+    </script>
+  </body>
+</html>
