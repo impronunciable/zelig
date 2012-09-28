@@ -15,6 +15,10 @@
 
 ### Zelig#gaussianBlur()
 
+### Zelig#motionBlur()
+
+### Zelig#sharpen()
+
 ## Example
 
 ```js
