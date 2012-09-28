@@ -11,3 +11,5 @@
 
 ### Zelig#emboss()
 
+### Zelig#laplace()
+
